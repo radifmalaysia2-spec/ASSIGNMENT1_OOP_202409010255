@@ -29,7 +29,7 @@ This repository consolidates the source code, project files, and supporting mate
 ```text
 ASSIGNMENT1_OOP_202409010255/
 ├── README.md
-├── myreport.pdf                 # Added after all tutorials are reviewed
+├── myreport.pdf                 
 ├── week1/
 ├── week2/
 ├── week3-4/
