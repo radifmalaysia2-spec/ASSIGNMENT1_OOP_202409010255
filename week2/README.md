@@ -1,11 +1,9 @@
-# Week 2 Tutorial
+# Week 2 - Classes and Objects
 
-This folder is reserved for the Java source code, project files, and supporting materials completed during week 2.
+This tutorial uses a `Student` class to store a name, age, and GPA. The constructor initializes the object, and the methods display the student's information and demonstrate simple object behaviour.
 
-## Contents
+```bash
+javac Main.java Student.java
+java Main
+```
 
-The completed tutorial files will be added here after they are provided and reviewed.
-
-## Running the Work
-
-Specific compilation and execution instructions will be documented here together with the tutorial files.

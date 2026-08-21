@@ -1,11 +1,9 @@
-# Weeks 3-4 Tutorial
+# Weeks 3-4 - Inheritance and Polymorphism
 
-This folder is reserved for the Java source code, project files, and supporting materials completed during weeks 3-4.
+`Student` and `Lecturer` inherit common information from `Person`. Each subclass overrides `introduce()`, so a `Person` reference produces a different introduction according to the object assigned to it.
 
-## Contents
+```bash
+javac Main.java Person.java Student.java Lecturer.java
+java Main
+```
 
-The completed tutorial files will be added here after they are provided and reviewed.
-
-## Running the Work
-
-Specific compilation and execution instructions will be documented here together with the tutorial files.

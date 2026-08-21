@@ -1,111 +1,100 @@
 # BIT1123 Object-Oriented Programming (Java) - Assignment 1
 
-![Java](https://img.shields.io/badge/Java-Object--Oriented%20Programming-orange?logo=openjdk)
+![Java](https://img.shields.io/badge/Java-OOP-orange?logo=openjdk)
 ![Assignment](https://img.shields.io/badge/Assignment-Individual-blue)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 ## Student Information
 
 | Field | Details |
 |---|---|
-| **Student Name** | Radif Hasan |
-| **Student ID** | 202409010255 |
-| **Course** | BIT1123 Object-Oriented Programming |
-| **Programme** | Bachelor of Computer Science (Software Engineering) (Hons) - Major in Cyber Security |
-| **University** | City University Malaysia |
-| **Campus** | Cyberjaya Campus |
-| **Assignment** | Assignment 1 - Individual (20%) |
+| Student Name | Radif Hasan |
+| Student ID | 202409010255 |
+| Course | BIT1123 Object-Oriented Programming |
+| Programme | Bachelor of Computer Science (Software Engineering) (Hons) - Major in Cyber Security |
+| University | City University Malaysia |
+| Campus | Cyberjaya Campus |
+| Assignment | Assignment 1 - Individual (20%) |
 
 ## Course Description
 
-This course introduces object-oriented programming using Java. The practical work develops skills in writing, organizing, compiling, testing, and improving Java programs while applying core concepts such as classes, objects, encapsulation, inheritance, polymorphism, and abstraction.
-
-## Repository Purpose
-
-This repository consolidates the source code, project files, and supporting materials completed during Tutorials/Weeks 1-10. It also demonstrates consistent repository organization, clear documentation, version-control practice, and reflective learning.
+BIT1123 introduces the principles of object-oriented programming through Java. The tutorials move from basic syntax and classes to encapsulation, inheritance, polymorphism, abstraction, collections, file handling, and graphical user interfaces.
 
 ## Repository Structure
 
 ```text
 ASSIGNMENT1_OOP_202409010255/
 ├── README.md
-├── myreport.pdf                 # Added after all tutorials are reviewed
-├── week1/
-├── week2/
-├── week3-4/
-├── week5/
-├── week6/
-├── week7/
-├── week8-9/
-└── week10/
+├── myreport.pdf
+├── week1/       # Java basics and GitHub
+├── week2/       # Classes and objects
+├── week3-4/     # Inheritance and polymorphism
+├── week5/       # Encapsulation
+├── week6/       # Employee and lecturer inheritance
+├── week7/       # Abstract classes
+├── week8-9/     # ArrayList and file handling
+└── week10/      # Java Swing quiz application
 ```
 
-The repository uses the **week** naming convention consistently. Each folder will contain the Java source code, relevant project files, and supporting materials for that tutorial period.
+Each tutorial folder contains the completed Java source code, a short guide, and the original tutorial handout.
 
 ## Tutorial Summary
 
-| Week | Focus / Evidence | Status |
+| Week | Main Work | Concepts Practised |
 |---|---|---|
-| Week 1 | Tutorial source code and supporting files | Awaiting tutorial files |
-| Week 2 | Tutorial source code and supporting files | Awaiting tutorial files |
-| Weeks 3-4 | Tutorial source code and supporting files | Awaiting tutorial files |
-| Week 5 | Tutorial source code and supporting files | Awaiting tutorial files |
-| Week 6 | Tutorial source code and supporting files | Awaiting tutorial files |
-| Week 7 | Tutorial source code and supporting files | Awaiting tutorial files |
-| Weeks 8-9 | Tutorial source code and supporting files | Awaiting tutorial files |
-| Week 10 | Tutorial source code and supporting files | Awaiting tutorial files |
-
-The focus and learning outcome for each week will be updated from the completed tutorial files so the documentation remains accurate.
+| 1 | Hello World and grade calculator | Java structure, input, selection, GitHub |
+| 2 | Student information program | Classes, objects, fields, constructors, methods |
+| 3-4 | University people model | Inheritance, method overriding, polymorphism |
+| 5 | Student information system | Encapsulation, private fields, getters, setters, validation |
+| 6 | Employee and lecturer model | Inheritance, `super`, specialised fields and methods |
+| 7 | Smart appliance system | Abstract classes, abstract methods, runtime polymorphism |
+| 8-9 | Persistent to-do list | `ArrayList`, loops, buffered file input and output, exceptions |
+| 10 | Programming Quiz Battle | Swing, event handling, composition, graphical interfaces |
 
 ## Technologies Used
 
-- Java
 - Java Development Kit (JDK)
-- Command-line tools or a Java IDE
+- Java Swing
 - Git and GitHub
+- GitHub Codespaces
 - Markdown
 
 ## How to Run the Projects
 
-1. Install a recent Java Development Kit.
-2. Clone this repository:
+1. Install a recent JDK and clone the repository:
 
    ```bash
    git clone https://github.com/radifmalaysia2-spec/ASSIGNMENT1_OOP_202409010255.git
+   cd ASSIGNMENT1_OOP_202409010255
    ```
 
-3. Open a terminal in the required week folder.
-4. Compile the Java source file:
+2. Move to a tutorial folder, compile its files, and run its main class. For example:
 
    ```bash
-   javac FileName.java
+   cd week6
+   javac Main.java Employee.java Lecturer.java
+   java Main
    ```
 
-5. Run the compiled class:
-
-   ```bash
-   java FileName
-   ```
-
-Replace `FileName` with the actual class containing the `main` method. If a project requires an IDE or a different command, its folder documentation will provide the specific instructions.
+3. Refer to the folder's `README.md` for its exact command. Week 10 requires a desktop environment that can display a Swing window.
 
 ## Reflection Summary
 
-The tutorial work is intended to show progressive development from basic Java syntax and program structure toward stronger object-oriented design. Organizing the work in one repository also improves practical skills in documentation, version control, file management, and maintaining a professional programming portfolio. A complete self-reflective report will be added as `myreport.pdf` after all tutorial files have been reviewed.
+Completing these tutorials strengthened my ability to turn a written problem into a set of Java classes with clear responsibilities. I became more confident with constructors, access control, inheritance, method overriding, abstract classes, collections, file operations, exception handling, and Swing events. Keeping the work in one repository also improved my use of GitHub, folder organisation, and technical documentation. My detailed reflection is available in `myreport.pdf`.
 
 ## Repository Link
 
 <https://github.com/radifmalaysia2-spec/ASSIGNMENT1_OOP_202409010255>
 
-## Submission Checklist
+## Completion Checklist
 
-- [x] One GitHub repository used for the subject
-- [x] Professional root README created
-- [ ] Week 1-10 tutorial files uploaded
-- [ ] Tutorial summaries updated from the actual work
-- [ ] Self-reflective report added as `myreport.pdf`
-- [ ] Final file and run checks completed
+- [x] One repository used for the subject
+- [x] Week 1-10 tutorial source code completed
+- [x] Supporting tutorial handouts included
+- [x] All command-line projects compiled and tested
+- [x] README completed
+- [x] Self-reflective report included as `myreport.pdf`
 
 ---
 
-*Prepared by Radif Hasan (202409010255) for BIT1123 Object-Oriented Programming, City University Malaysia.*
+Prepared by **Radif Hasan (202409010255)** for BIT1123 Object-Oriented Programming, City University Malaysia.

@@ -1,11 +1,12 @@
-# Week 1 Tutorial
+# Week 1 - Java and GitHub Setup
 
-This folder is reserved for the Java source code, project files, and supporting materials completed during week 1.
+This tutorial introduced GitHub Codespaces, basic Git commands, and the structure of a Java program. `HelloWorld.java` prints a welcome message, while `StudentGrade.java` accepts a name and mark, validates the mark, and displays the corresponding grade.
 
-## Contents
+Compile and run:
 
-The completed tutorial files will be added here after they are provided and reviewed.
+```bash
+javac HelloWorld.java StudentGrade.java
+java HelloWorld
+java StudentGrade
+```
 
-## Running the Work
-
-Specific compilation and execution instructions will be documented here together with the tutorial files.

@@ -1,11 +1,9 @@
-# Week 6 Tutorial
+# Week 6 - Employee and Lecturer
 
-This folder is reserved for the Java source code, project files, and supporting materials completed during week 6.
+This example models a lecturer as a specialised employee. The `Lecturer` class inherits the employee ID and name, then adds the subject and department requested in the activity.
 
-## Contents
+```bash
+javac Main.java Employee.java Lecturer.java
+java Main
+```
 
-The completed tutorial files will be added here after they are provided and reviewed.
-
-## Running the Work
-
-Specific compilation and execution instructions will be documented here together with the tutorial files.

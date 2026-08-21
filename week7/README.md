@@ -1,11 +1,9 @@
-# Week 7 Tutorial
+# Week 7 - Abstraction
 
-This folder is reserved for the Java source code, project files, and supporting materials completed during week 7.
+The abstract `Appliances` class provides shared power and brand behaviour while requiring each appliance to define its own `operate()` method. The completed activity includes a washing machine, refrigerator, air conditioner, and television.
 
-## Contents
+```bash
+javac Main.java Appliances.java
+java Main
+```
 
-The completed tutorial files will be added here after they are provided and reviewed.
-
-## Running the Work
-
-Specific compilation and execution instructions will be documented here together with the tutorial files.
