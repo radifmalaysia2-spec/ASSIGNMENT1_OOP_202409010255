@@ -8,8 +8,8 @@
 
 | Field | Details |
 |---|---|
-| Student Name | Radif Hasan |
-| Student ID | 202409010255 |
+| Student Name | KHONDOKER WASIF AMJAD |
+| Student ID | 202409010759 |
 | Course | BIT1123 Object-Oriented Programming |
 | Programme | Bachelor of Computer Science (Software Engineering) (Hons) - Major in Cyber Security |
 | University | City University Malaysia |
@@ -97,4 +97,4 @@ Completing these tutorials strengthened my ability to turn a written problem int
 
 ---
 
-Prepared by **Radif Hasan (202409010255)** for BIT1123 Object-Oriented Programming, City University Malaysia.
+Prepared by **KHONDOKER WASIF AMJAD** for BIT1123 Object-Oriented Programming, City University Malaysia.
